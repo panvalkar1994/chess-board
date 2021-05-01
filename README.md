@@ -1,4 +1,5 @@
 # Chess
+This is my attempt to creat a working chess game with Angular. Anyone who is interested please do join. It will be fun.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
 
