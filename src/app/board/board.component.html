@@ -1,4 +1,16 @@
-<table>
+<div class="container">
+    <table>
+        <tr *ngFor="let row of rows; let i=index"> 
+            <td *ngFor="let col of columns; let j=index" [ngClass]="{black: (i+j)%2}" (click)="cellSelected(i,j)"></td>
+        </tr>
+    </table>
+    <hr>
+        Position of click {{x}} ,{{y}}
+    <hr>
+
+</div>
+
+<!-- <table>
     <tr>
         <td></td>
         <td class="black"></td>
@@ -79,4 +91,4 @@
         <td class="black"></td>
         <td></td>
     </tr>
-</table>
+</table> -->

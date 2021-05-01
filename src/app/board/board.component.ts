@@ -6,11 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./board.component.css']
 })
 export class BoardComponent implements OnInit {
-  rows = [0, 1, 2, 3, 4, 5, 6, 7, 8];
-  columns = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+  rows = [0, 1, 2, 3, 4, 5, 6, 7];
+  columns = [0, 1, 2, 3, 4, 5, 6, 7];
+  x = 0;
+  y = 0;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  cellSelected(i:number, j:number) {
+    this.x = i;
+    this.y = j;
   }
 
 }

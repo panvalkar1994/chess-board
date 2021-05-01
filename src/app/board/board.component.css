@@ -6,8 +6,16 @@ table{
 td{
     height: 50px;
     width: 50px;
+    border: 1px solid black;
 }
 
 .black{
     background-color: black;
+}
+
+.container{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
